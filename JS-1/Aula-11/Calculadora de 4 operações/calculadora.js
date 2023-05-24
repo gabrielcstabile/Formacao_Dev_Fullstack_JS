@@ -17,13 +17,5 @@ const multiplicacao = x * y;
 const divisao = x / y;
 
 alert(
-  "Resultados\n" +
-    "Soma: " +
-    soma +
-    "\nSubtração: " +
-    subtracao +
-    "\nMultiplicação: " +
-    multiplicacao +
-    "\nDivisão: " +
-    divisao
+  `Resultados\nSoma: ${soma}\nSubtração: ${subtracao}\nMultiplicação: ${multiplicacao}\nDivisão: ${divisao}`
 );
